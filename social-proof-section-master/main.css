@@ -77,10 +77,13 @@ font-weight:700 ;
     text-align:center;
     font-weight: 400;
     padding:0.8rem;
-    width:18rem;
+    width:20rem;
     height:1.3rem;
     margin-top:1rem;
-    margin-left: 9rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: center;
+    
       
     
 }
@@ -96,11 +99,13 @@ font-weight:700 ;
     color:hsl(300, 43%, 22%);
     font-weight: 400;
     padding:0.8rem;
-    width:18rem;
+    width:20rem;
     height:1.3rem;
     justify-items:center;
     margin-top:1rem;
-    margin-left: 15rem;
+    margin-left: 13rem;
+    display: flex;
+    justify-content: center;
     
     
     
@@ -117,10 +122,12 @@ font-weight:700 ;
     font-weight: 400;
     padding:0.8rem; 
     text-align:center; 
-    width:18rem;
+    width:20rem;
     height:1.3rem;
     margin-top:1rem;
-    margin-left: 21rem;
+    margin-left: 19rem;
+    display: flex;
+    justify-content: center;
    
     
     
@@ -129,10 +136,12 @@ font-weight:700 ;
 .stars{
     width: 8px;
     height: 8px; 
+ 
 
 }
 .explanation{
     font-size:10px;
+    padding-left: 1rem;
 }
 
 .firstBlock{
@@ -144,8 +153,9 @@ font-weight:700 ;
     border-radius: 0.3rem;
     padding:1rem;
     text-align: left;
-    width:85% ;
-    height: 63%;
+    width: 90% ;
+    height: 70%;
+    line-height: 1.5rem;
 
 
     
@@ -160,9 +170,9 @@ font-weight:700 ;
     border-radius: 0.3rem;
     padding:1rem;
     text-align: left;
-    width:85% ;
-    height: 63%;
-    
+    width:90% ;
+    height: 70%;
+    line-height: 1.5rem;
 }
 .thirdBlock{
     grid-column-start:3 ;
@@ -173,8 +183,10 @@ font-weight:700 ;
     border-radius: 0.3rem;
     padding:1rem;
     text-align: left;
-    width:85% ;
-    height: 63%;
+    width:90% ;
+    height: 70%;
+    line-height: 1.5rem;
+    
     
     
 }
@@ -194,7 +206,7 @@ font-weight:700 ;
  
 }
 .blockPara{
-    color:white;
+    color:hsl(303, 10%, 53%);
     font-family:Spartan ;
 }
 
@@ -238,10 +250,10 @@ font-weight:700 ;
 .grid-container{
     display:grid;
     grid-template-columns: 20rem ;
-    grid-template-rows: 5rem 5rem 2rem 2rem 2rem 12rem 12rem 12rem;
-    row-gap: 1.5rem;
+    grid-template-rows: 7rem 4rem 3rem 3rem 3rem 12rem 12rem 12rem;
+    row-gap: 2rem;
     width:22rem;
-    height:54rem;
+    height:63rem;
     min-height: 100vh;
     justify-content: center;
     margin-bottom: 46%;
@@ -253,7 +265,8 @@ font-weight:700 ;
     grid-row-start:1 ;
     grid-row-end:2;
     text-align: center;
-    width:95%;
+    width:85%;
+    height:3%;
     padding-left: 2rem;
     
 
@@ -286,10 +299,10 @@ font-weight:700 ;
     text-align:center;
     font-weight: 400;
     padding:0.8rem;
-    height:1.5rem;
-    justify-items:center;
+    height:2.3rem;
+    display:grid;
     margin-left: 2rem;
-         
+    line-height: 1rem;        
     
 }
 
@@ -305,10 +318,11 @@ font-weight:700 ;
     font-weight: 400;
     padding:0.8rem;
     width:17rem;
-    height:1.5rem;
-    justify-items:center;
-   
+    height:2.3rem;
+    display:grid;
     margin-left: 2rem;
+    line-height: 1rem;
+    
       
     
 }
@@ -324,11 +338,12 @@ font-weight:700 ;
     padding:0.8rem; 
     text-align:center; 
     width:17rem;
-    height:1.5rem;
-    justify-items:center;
-    
+    height:2.3rem;
+    display:grid;
     margin-left: 2rem;
     margin-bottom: 1rem; 
+    line-height: 1rem;
+    
     
 }
 
@@ -345,8 +360,6 @@ font-weight:700 ;
     height: 90%;
     margin-left: 2rem;
     margin-top: 0.5rem;
-    
-
     line-height: 1.6rem;
 
     
@@ -381,19 +394,28 @@ font-weight:700 ;
     height: 90%;
     margin-left: 2rem;
     margin-top: 0.5rem;
-    line-height: 1.6rem;
-    
-    
+    line-height: 1.6rem;   
     
 }
 
 
 .stars{
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px; 
+    
+   
     
 
 }
+
+.explanation{
+    text-align: left; 
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Spartan ;
+    color: hsl(300, 43%, 22%) ;
+    
+   }
 
     
 }
